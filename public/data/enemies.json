@@ -3,7 +3,7 @@
       "id": 0,
       "name": "Reconstructed Caribou",
       "type": "Mechanical Chimera",
-      "stats": [{
+      "stats": {
         "level": 15,
         "hp": 512,
         "pp": 0,
@@ -15,10 +15,10 @@
           "Wall Staples",
           "Thunder Bomb"
         ]
-      }],
+      },
       "description": "Someone has modified this gentle reindeer to make it aggressive.",
-      "image": "./image like here",
-      "music": "./link here maybe"
+      "image": "./images/Reconstructed_Caribou_Battle.PNG.png",
+      "music": "./music/Tragic_Reconstruction_MOTHER_3.mp3"
     },
     {
       "id": 1,
