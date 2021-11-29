@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import EnemyItem from "./EnemyItem";
-import MusicList from "./MusicList";
+import EnemyModal from "./EnemyModal";
 import PlayWidget from "./PlayWidget";
 import { List, Modal, Grid } from "@material-ui/core";
 import "./styles.css";
@@ -10,18 +10,44 @@ export default function EnemyList() {
   const [items, setItems] = useState([]);
   const [selectedItem, selectItem] = useState([]);
   const [showModal, setModalOpen] = useState(false);
-
+  
+  const audioRef = useRef();
   const [curPlaying, setCurPlaying] = useState({});
   const [curProgress, setCurProgress] = useState(0);
+  
+
 
   useEffect(() => {
     fetch("data/enemies.json")
       .then((res) => res.json())
       .then((dataObject) => {
-        //console.log(dataObject);
         setItems(dataObject);
       });
   }, []);
+
+  try { //must have variables defined up here to run properly but causes insane amount of errors in console
+    var name = selectedItem.name;
+    var type = selectedItem.type;
+    
+    //stats
+    var level = selectedItem.stats.level;
+    var hp = selectedItem.stats.hp;
+    var pp = selectedItem.stats.pp;
+    var offense = selectedItem.stats.offense;
+    var defense = selectedItem.stats.defense;
+    var iq = selectedItem.stats.iq;
+    var speed = selectedItem.stats.speed;
+    var weakness = selectedItem.stats.weakness.join(", ");
+
+    var description = selectedItem.description;
+    var image = selectedItem.image;
+    var music = selectedItem.music.split("./music/").pop();
+
+    
+
+  } catch (error) {
+    //console.log(error);
+  }
 
   const itemsList = items.map((item) => (
     <EnemyItem
@@ -33,7 +59,6 @@ export default function EnemyList() {
 
   function showInfo(itemId) {
     selectItem(items[itemId]);
-    
     setModalOpen(true);
   }
 
@@ -42,40 +67,37 @@ export default function EnemyList() {
     setCurPlaying(foundItem);
   }
 
-    
+  
   return (
-    <div>
+    <div class="maindiv">
       <Modal
         open={showModal}
         onClose={() => {
           setModalOpen(false);
         }}
       >
-        <div id="infobox">
-          <img src={selectedItem.image}/>
-          
-          <h3>{selectedItem.name}</h3>
-          <p>{selectedItem.description}</p>
-          <p>{selectedItem.type}</p>
-          <p>{selectedItem.stats.level}</p>
-          <p>{selectedItem.stats.weakness.join(", ")}</p>
-          <div>
-            <br/>
-            Music Player
-            <p>{selectedItem.music}</p>
-            <PlayWidget currentItem={selectedItem} setCurProgress={setCurProgress} />
-          </div>
-        </div>
+        <EnemyModal
+          selectedItem={selectedItem}
+          name={name}
+          type={type}
+          level={level}
+          hp={hp}
+          pp={pp}
+          offense={offense}
+          defense={defense}
+          iq={iq}
+          speed={speed}
+          weakness={weakness}
+          description={description}
+          image={image}
+          music={music}
+          setCurProgress={setCurProgress}
+        />
       </Modal>
 
+      <h1>MOTHER 3 BOSSES</h1>
       <Grid container>
-        <Grid>
-          <h2>Enemies</h2>
-          <List>{itemsList}</List>
-        </Grid>
-        <Grid>
-          <h2>Info</h2>
-        </Grid>
+        {itemsList}
       </Grid>
     </div>
   );

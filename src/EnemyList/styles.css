@@ -1,8 +1,74 @@
 #infobox {
-  width: 50%;
-  height: 70%;
-  margin: 5% auto;
-  background-color: white;
+  width: 800px;
+  height: 580px;
+  margin: 50px auto;
+  background-color: #d6d8e2;
   border-radius: 6px;
   padding: 4px;
+}
+
+.maindiv {
+  background-color: #e8e8e1;
+}
+
+.imgholder {
+  display: flex;
+  justify-content: center;
+}
+
+.itemholder {
+  display: flex;
+  padding: 40px;
+}
+
+.itemholder .btnholder {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  padding-right: 20px;
+}
+
+.section {
+  display: flex;
+}
+
+.header {
+  width: 60%;
+  padding-left: 20px;
+}
+
+.stats {
+  padding-top: 100px;
+  padding-left: 60px;
+}
+
+h1 {
+  width: 100%;
+  height: 100px;
+  background-color: #db1306;
+  color: #e8e8e1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 36px;
+}
+
+p {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+h4 {
+  font-family: monospace;
+  font-size: 20px;
 }
