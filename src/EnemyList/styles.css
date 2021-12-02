@@ -1,6 +1,6 @@
 #infobox {
   width: 800px;
-  height: 580px;
+  min-height: 580px;
   margin: 50px auto;
   background-color: #d6d8e2;
   border-radius: 6px;
@@ -14,6 +14,15 @@
 .imgholder {
   display: flex;
   justify-content: center;
+}
+
+.imgholder img {
+  height: 90px;
+  transition: height ease 2s;
+}
+
+.imgholder img:hover {
+  height: 150px;
 }
 
 .itemholder {

@@ -18,7 +18,7 @@ export default function EnemyModal(props) {
                 <br/>
                 <h4>Music Player</h4>
                 <p>{props.music}</p>
-                <PlayWidget currentItem={props.selectedItem} setCurProgress={props.setCurProgress} />
+                <PlayWidget currentItem={props.selectedItem} setCurProgress={props.setCurProgress} setAudInterval={props.setAudInterval}/>
             </div>
             <div class="stats">
                 <p>Level: {props.level}</p>

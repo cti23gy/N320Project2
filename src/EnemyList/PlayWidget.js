@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 
 export default function PlayWidget(props) {
   const audioRef = useRef();
-  const [audInterval, setAudInterval] = useState(0);
 
   return (
     <div>
@@ -17,10 +16,10 @@ export default function PlayWidget(props) {
 
             props.setCurProgress(progress);
           }, 100);
-          setAudInterval(ai);
+          props.setAudInterval(ai);
         }}
         onPause={() => {
-          clearInterval(audInterval);
+          clearInterval(props.audInterval);
         }}
       />
     </div>

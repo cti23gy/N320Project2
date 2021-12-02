@@ -3,6 +3,7 @@ import EnemyItem from "./EnemyItem";
 import EnemyModal from "./EnemyModal";
 import PlayWidget from "./PlayWidget";
 import { List, Modal, Grid } from "@material-ui/core";
+
 import "./styles.css";
 
 
@@ -12,6 +13,7 @@ export default function EnemyList() {
   const [showModal, setModalOpen] = useState(false);
   
   const audioRef = useRef();
+  const [audInterval, setAudInterval] = useState(0);
   const [curPlaying, setCurPlaying] = useState({});
   const [curProgress, setCurProgress] = useState(0);
   
@@ -71,9 +73,11 @@ export default function EnemyList() {
   return (
     <div class="maindiv">
       <Modal
+        className="modal"
         open={showModal}
         onClose={() => {
           setModalOpen(false);
+          clearInterval(audInterval);
         }}
       >
         <EnemyModal
@@ -92,9 +96,10 @@ export default function EnemyList() {
           image={image}
           music={music}
           setCurProgress={setCurProgress}
+          setAudInterval={setAudInterval}
         />
       </Modal>
-
+      
       <h1>MOTHER 3 BOSSES</h1>
       <Grid container>
         {itemsList}
