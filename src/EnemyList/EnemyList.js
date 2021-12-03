@@ -18,7 +18,7 @@ export default function EnemyList() {
   const [curProgress, setCurProgress] = useState(0);
   
 
-
+  //get json data
   useEffect(() => {
     fetch("data/enemies.json")
       .then((res) => res.json())
@@ -27,7 +27,7 @@ export default function EnemyList() {
       });
   }, []);
 
-  try { //must have variables defined up here to run properly but causes insane amount of errors in console
+  try { //must have variables defined up here to run properly
     var name = selectedItem.name;
     var type = selectedItem.type;
     
@@ -43,7 +43,7 @@ export default function EnemyList() {
 
     var description = selectedItem.description;
     var image = selectedItem.image;
-    var music = selectedItem.music.split("./music/").pop();
+    var music = selectedItem.music.split("./music/").pop(); //gets rid of a portion of the hyperlink
 
     
 

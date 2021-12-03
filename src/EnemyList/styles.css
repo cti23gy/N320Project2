@@ -5,6 +5,12 @@
   background-color: #d6d8e2;
   border-radius: 6px;
   padding: 4px;
+
+  transition: width ease 2s;
+}
+
+#infobox:hover {
+  width: 1000px;
 }
 
 .maindiv {
