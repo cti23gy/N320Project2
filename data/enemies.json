@@ -1,0 +1,557 @@
+[
+    {
+      "id": 0,
+      "name": "Reconstructed Caribou",
+      "type": "Mechanical Chimera",
+      "stats": {
+        "level": 15,
+        "hp": 512,
+        "pp": 0,
+        "offense": 57,
+        "defense": 21,
+        "iq": 12,
+        "speed": 16,
+        "weakness": [
+          "Wall Staples",
+          "Thunder Bomb"
+        ]
+      },
+      "description": "Someone has modified this gentle reindeer to make it aggressive.",
+      "image": "./images/Reconstructed_Caribou_Battle.png",
+      "music": "./music/Tragic_Reconstruction_MOTHER_3.mp3"
+    },
+    {
+      "id": 1,
+      "name": "Mecha-Drago",
+      "type": "Mechanical Chimera",
+      "stats": {
+        "level": 20,
+        "hp": 724,
+        "pp": 0,
+        "offense": 60,
+        "defense": 34,
+        "iq": 8,
+        "speed": 8,
+        "weakness": [
+          "Drago Fang"
+        ]
+      },
+      "description": "This vicious, mechanized monstrosity was once a friendly animal known as a Drago.",
+      "image": "./images/Mecha_Drago.png",
+      "music": "./music/Fight_with_Mecha_Drago_MOTHER_3.mp3"
+    },
+    {
+      "id": 2,
+      "name": "Mr. Passion",
+      "type": "Ghost",
+      "stats": {
+        "level": 20,
+        "hp": 630,
+        "pp": 0,
+        "offense": 60,
+        "defense": 25,
+        "iq": 18,
+        "speed": 20,
+        "weakness": [
+          "Crying"
+        ]
+      },
+      "description": "The ghost of a musician who died before finishing his symphony. Beware of his captivating melodies.",
+      "image": "./images/Lord_Passion.png",
+      "music": "./music/Family_Matters_2nd_Movement_MOTHER_3.mp3"
+    },
+    {
+      "id": 3,
+      "name": "Clayman",
+      "type": "Strange Creature",
+      "stats": {
+        "level": 20,
+        "hp": 879,
+        "pp": 0,
+        "offense": 72,
+        "defense": 23,
+        "iq": 5,
+        "speed": 10,
+        "weakness": [
+          "Thunder Bomb",
+          "Sleep"
+        ]
+      },
+      "description": "A lump of clay brought to life. It works as hard as it looks sad.",
+      "image": "./images/Clayman_Battle_Sprite.png",
+      "music": "./music/Cumbersome_Guys_MOTHER_3.mp3"
+    },
+    {
+      "id": 4,
+      "name": "Oh-So-Snake",
+      "type": "Animal",
+      "stats": {
+        "level": 24,
+        "hp": 1237,
+        "pp": 0,
+        "offense": 82,
+        "defense": 28,
+        "iq": 16,
+        "speed": 23,
+        "weakness": [
+          "PK Thunder", 
+          "Crying"
+        ]
+      },
+      "description": "An enormous snake that rules the Osohe Castle basement. Disturb its sleep and it will tidal wave you goodbye.",
+      "image": "./images/Oh-So-Snake.png",
+      "music": "./music/Formidable_Foes_MOTHER_3.mp3"
+    },
+    {
+      "id": 5,
+      "name": "Cactus Wolf",
+      "type": "Biological Chimera",
+      "stats": {
+        "level": 10,
+        "hp": 468,
+        "pp": 0,
+        "offense": 43,
+        "defense": 20,
+        "iq": 10,
+        "speed": 11,
+        "weakness": [
+          "Monkey Mimic", 
+          "Fassad"
+        ]
+      },
+      "description": "The Cactus Wolf has a Wolf Cactus attached firmly to its forehead. The two get along quite well.",
+      "image": "./images/Cactus_Wolf.png",
+      "music": "./music/And_El_Mariachi_MOTHER_3.mp3"
+    },
+    {
+      "id": 6,
+      "name": "Pork Tank",
+      "type": "Mechanical",
+      "stats": {
+        "level": 15,
+        "hp": 1782,
+        "pp": 0,
+        "offense": 74,
+        "defense": 21,
+        "iq": 12,
+        "speed": 10,
+        "weakness": [
+          "PK Thunder", 
+          "Monkey Mimic"
+        ]
+      },
+      "description": "This Pigmask weapon raises an awful racket and belches black exhaust fumes without remorse.",
+      "image": "./images/Pork_Tank.png",
+      "music": "./music/Audacious_March_MOTHER_3.mp3"
+    },
+    {
+      "id": 7,
+      "name": "Jealous Bass",
+      "type": "Strange Creature",
+      "stats": {
+        "level": 25,
+        "hp": 978,
+        "pp": 32,
+        "offense": 58,
+        "defense": 25,
+        "iq": 20,
+        "speed": 26,
+        "weakness": [
+          "PK Fire"
+        ]
+      },
+      "description": "A wooden bass whose time in the limelight is up. Holds a grudge against the new bass on the block.",
+      "image": "./images/Jealous_Bass.png",
+      "music": "./music/Rock_and_Roll_Spicy_MOTHER_3.mp3"
+    },
+    {
+      "id": 8,
+      "name": "Fierce Pork Trooper",
+      "type": "Person",
+      "stats": {
+        "level": 28,
+        "hp": 1758,
+        "pp": 0,
+        "offense": 125,
+        "defense": 46,
+        "iq": 15,
+        "speed": 25,
+        "weakness": [
+          "DCMC Merchandise", 
+          "PK Fire"
+        ]
+      },
+      "description": "So fierce-looking he's afraid of his own reflection. Takes good care of his men and is a huge DCMC fan.",
+      "image": "./images/Fierce_Pork_Trooper_1.png",
+      "music": "./music/Unfounded_Revenge_MOTHER_3.mp3"
+    },
+    {
+      "id": 9,
+      "name": "Forlorn Junk Heap",
+      "type": "Strange Creature",
+      "stats": {
+        "level": 30,
+        "hp": 1818,
+        "pp": 48,
+        "offense": 122,
+        "defense": 45,
+        "iq": 15,
+        "speed": 27,
+        "weakness": [
+          "PK Fire"
+        ]
+      },
+      "description": "A Clayman that has grown lonely. All sorts of garbage and junk have been absorbed into its body.",
+      "image": "./images/Forlorn_Junk_Heap.png",
+      "music": "./music/Wasteful_Anthem_MOTHER_3.mp3"
+    },
+    {
+      "id": 10,
+      "name": "Fierce Pork Trooper",
+      "type": "Person",
+      "stats": {
+        "level": 30,
+        "hp": 2064,
+        "pp": 0,
+        "offense": 159,
+        "defense": 59,
+        "iq": 18,
+        "speed": 29,
+        "weakness": [
+          "DCMC Merchandise", 
+          "PK Fire"
+        ]
+      },
+      "description": "After tasting defeat, this solider underwent intense training to power himself up.",
+      "image": "./images/Fierce_Pork_Trooper_2.png",
+      "music": "./music/Unfounded_Revenge_MOTHER_3.mp3"
+    },
+    {
+      "id": 11,
+      "name": "Mr. Genetor",
+      "type": "Mechanical",
+      "stats": {
+        "level": 35,
+        "hp": 3333,
+        "pp": 0,
+        "offense": 120,
+        "defense": 55,
+        "iq": 35,
+        "speed": 38,
+        "weakness": [
+          "PK Freeze"
+        ]
+      },
+      "description": "The generator robot of Thunder Tower. It uses paralyzing chop attacks as if to say, 'Take that!'",
+      "image": "./images/Mr_Genetor.png",
+      "music": "./music/GENE163_1425_MOTHER_3.mp3"
+    },
+    {
+      "id": 12,
+      "name": "Lord Passion",
+      "type": "Ghost",
+      "stats": {
+        "level": 24,
+        "hp": 2897,
+        "pp": 0,
+        "offense": 82,
+        "defense": 43,
+        "iq": 45,
+        "speed": 34,
+        "weakness": [ 
+          "Crying", 
+          "PK Fire"
+        ]
+      },
+      "description": "This spirited musician can't control his tempo. In fact, his passion is just hitting a crescendo.",
+      "image": "./images/Lord_Passion_2.png",
+      "music": "./music/Ode_to_Ancestors_8th_Movement_MOTHER_3.mp3"
+    },
+    {
+      "id": 13,
+      "name": "Li'l Miss Marshmallow",
+      "type": "Mechanical",
+      "stats": {
+        "level": 30,
+        "hp": 2300,
+        "pp": 0,
+        "offense": 110,
+        "defense": 46,
+        "iq": 23,
+        "speed": 35,
+        "weakness": [
+          "PK Thunder", 
+          "Saltwater Gun"
+        ]
+      },
+      "description": "A robot that takes care of its master. Cooks, cleans, does laundry, cleans out ears and trims nose hair.",
+      "image": "./images/Lil_Miss_Marshmellow.png",
+      "music": "./music/GENE163_1425_MOTHER_3.mp3"
+    },
+    {
+      "id": 14,
+      "name": "Almost Mecha-Lion",
+      "type": "Mechanical Chimera",
+      "stats": {
+        "level": 35,
+        "hp": 1684,
+        "pp": 0,
+        "offense": 126,
+        "defense": 60,
+        "iq": 36,
+        "speed": 42,
+        "weakness": [
+          "PK Thunder"
+        ]
+      },
+      "description": "The only non-mechanical part is a portion of its face. It only eats raw meat soaked in machine oil.",
+      "image": "./images/Almost_Mecha-Lion.png",
+      "music": "./music/Wasteful_Anthem_MOTHER_3.mp3"
+    },
+    {
+      "id": 15,
+      "name": "Steel Mechorilla",
+      "type": "Mechanical Chimera",
+      "stats": {
+        "level": 40,
+        "hp": 2860,
+        "pp": 0,
+        "offense": 164,
+        "defense": 68,
+        "iq": 32,
+        "speed": 30,
+        "weakness": [
+          "PK Flash", 
+          "PK Thunder (Can Short Circuit!)"
+        ]
+      },
+      "description": "A construction Chimera designed to destroy the old Chimera Lab to make way for a new building.",
+      "image": "./images/Steel_Mechorilla.png",
+      "music": "./music/Smashing_Song_of_Praise_MOTHER_3.mp3"
+    },
+    { 
+      "id": 16,
+      "name": "New Fassad",
+      "type": "Mechanical Chimera",
+      "stats": {
+        "level": 45,
+        "hp": 3182,
+        "pp": 364,
+        "offense": 164,
+        "defense": 78,
+        "iq": 58,
+        "speed": 45,
+        "weakness": [
+          "PK Flash"
+        ]
+      },
+      "description": "Look out! Don't fall for New Fassad's new facade! He's bigger and badder than ever!",
+      "image": "./images/New_Fassad_Battle_Sprite.png",
+      "music": "./music/Hustle_for_Pride_MOTHER_3.mp3"
+    },{
+      "id": 17,
+      "name": "Master Eddy",
+      "type": "Strange Creature",
+      "stats": {
+        "level": 47,
+        "hp": 2563,
+        "pp": 500,
+        "offense": 127,
+        "defense": 81,
+        "iq": 58,
+        "speed": 52,
+        "weakness": [
+          "PK Thunder"
+        ]
+      },
+      "description": "This bizarre creature is like a guardian deity of the sea. He punishes violators with powerful whirlpools.",
+      "image": "./images/Master_Eddy.png",
+      "music": "./music/Cumbersome_Guys_MOTHER_3.mp3"
+    },
+    {
+      "id": 18,
+      "name": "Barrier Trio",
+      "type": "Strange Creature",
+      "stats": {
+        "level": 48,
+        "hp": 4000,
+        "pp": 999,
+        "offense": 145,
+        "defense": 121,
+        "iq": 70,
+        "speed": 41,
+        "weakness": [
+          "Boney's Sniff", 
+          "Sometimes PK Fire", 
+          "Sometimes PK Freeze", 
+          "Sometimes PK Thunder"
+        ]
+      },
+      "description": "One of the Magypsies crafted these monsters to protect something very important.",
+      "image": "./images/Barrier_Trio.png",
+      "music": "./music/Strong_One_MOTHER_3.mp3"
+    },
+    {
+      "id": 19,
+      "name": "Masked Man",
+      "type": "???",
+      "stats": {
+        "level": 65,
+        "hp": 5000,
+        "pp": 999,
+        "offense": 165,
+        "defense": 120,
+        "iq": 64,
+        "speed": 43,
+        "weakness": [
+          "None"
+        ]
+      },
+      "description": "What expressions lie hidden behind his mask? ...And more importantly, who is he?",
+      "image": "./images/Masked_Man_1.png",
+      "music": "./music/Strong_One_Masked_Man_MOTHER_3.mp3"
+    },
+    {
+      "id": 20,
+      "name": "Miracle Fassad",
+      "type": "Mechanical Chimera",
+      "stats": {
+        "level": 62,
+        "hp": 5489,
+        "pp": 382,
+        "offense": 164,
+        "defense": 140,
+        "iq": 58,
+        "speed": 54,
+        "weakness": [
+          "Bombs"
+        ]
+      },
+      "description": "Miraculously enough, Fassad has attained an even more powerful form. He may look funny, but he means serious business.",
+      "image": "./images/Miracle_Fassad.png",
+      "music": "./music/Hustle_for_Pride_MOTHER_3.mp3"
+    },
+    {
+      "id": 21,
+      "name": "King Statue",
+      "type": "Mechanical",
+      "stats": {
+        "level": 99,
+        "hp": 99999999,
+        "pp": 0,
+        "offense": 228,
+        "defense": 255,
+        "iq": 200,
+        "speed": 78,
+        "weakness": [
+          "New Years Eve Bomb", 
+          "PK Flash"
+        ]
+      },
+      "description": "A statue honoring Porky's greatness. In its right hand is a slingshot, and in its left is a comic book.",
+      "image": "./images/King_Statue.png",
+      "music": "./music/Piggy_Guys_MOTHER_3.mp3"
+    },
+    {
+      "id": 22,
+      "name": "N.K. Cyborg",
+      "type": "Mechanical Chimera",
+      "stats": {
+        "level": 64,
+        "hp": 7548,
+        "pp": 0,
+        "offense": 500,
+        "defense": 232,
+        "iq": 52,
+        "speed": 43,
+        "weakness": [
+          "PK Thunder", 
+          "PK Ground"
+        ]
+      },
+      "description": "Based on a dream Porky once had. 'N.K.' stands for 'Natural Killer.",
+      "image": "./images/NK_Cyborg.png",
+      "music": "./music/Natural_Killer_Cyborg_MOTHER_3.mp3"
+    },
+    {
+      "id": 23,
+      "name": "Mecha-Porky's",
+      "type": "Mechanical",
+      "stats": {
+        "level": 60,
+        "hp": 865,
+        "pp": 0,
+        "offense": 135,
+        "defense": 148,
+        "iq": 45,
+        "speed": 49,
+        "weakness": [
+          "PK Thunder", 
+          "PK Ground"
+        ]
+      },
+      "description": "Robots based off Porky when he was a child. Made as a set of 11 for such purposes as forming a soccer team.",
+      "image": "./images/PORKY_01.png",
+      "music": "./music/Porkys_Porkies_MOTHER_3.mp3"
+    },
+    {
+      "id": 24,
+      "name": "Porky",
+      "type": "Mechanical",
+      "stats": {
+        "level": 67,
+        "hp": 6569,
+        "pp": 0,
+        "offense": 170,
+        "defense": 182,
+        "iq": 64,
+        "speed": 63,
+        "weakness": [ 
+          "PK Ground"
+        ]
+      },
+      "description": "Believe it or not, this is Porky in the flesh. He is simultaneously an old man and a young boy.",
+      "image": "./images/Porky.png",
+      "music": "./music/Master_Porkys_Theme_MOTHER_3.mp3"
+    },
+    {
+      "id": 25,
+      "name": "Absolutely Safe Capsule",
+      "type": "Mechanical",
+      "stats": {
+        "level": 24,
+        "hp": 9999,
+        "pp": 0,
+        "offense": 0,
+        "defense": "∞",
+        "iq": 1,
+        "speed": 1,
+        "weakness": [
+          "Absolutely Safe"
+        ]
+      },
+      "description": "Porky had a tantrum and made Dr. Andonuts and the Mr. Saturns create an Absolutely Safe Capsule.",
+      "image": "./images/Absolutely_Safe_Capsule.png",
+      "music": "./music/Absolutely_Safe_Capsule_MOTHER_3.mp3"
+    },
+    {
+      "id": 26,
+      "name": "Masked Man",
+      "type": "???",
+      "stats": {
+        "level": 75,
+        "hp": "∞",
+        "pp": 999,
+        "offense": 200,
+        "defense": 150,
+        "iq": 79,
+        "speed": 40,
+        "weakness": [
+          "None"
+        ]
+      },
+      "description": "Just who is he? The masked man remains silent...",
+      "image": "./images/Masked_Man_gif_resize.gif",
+      "music": "./music/Battle_Against_The_Masked_Man_MOTHER_3.mp3"
+    }
+]
