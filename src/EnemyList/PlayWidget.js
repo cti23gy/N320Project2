@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-export default function PlayWidget(props) {
+export default function PlayWidget(props) { //handle music widget for infobox
   const audioRef = useRef();
 
   return (

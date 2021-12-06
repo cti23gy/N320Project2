@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, ListItem, List, Modal, Grid } from "@material-ui/core";
 
-export default function EnemyItem(props) {
+export default function EnemyItem(props) { //individual boss sections on main page
   return ( 
   <div>
     <Grid>

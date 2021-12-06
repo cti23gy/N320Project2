@@ -59,7 +59,7 @@ export default function EnemyList() {
     />
   ));
 
-  function showInfo(itemId) {
+  function showInfo(itemId) { //open modal
     selectItem(items[itemId]);
     setModalOpen(true);
   }
